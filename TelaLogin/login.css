@@ -1,0 +1,70 @@
+body{
+    background-color: #000;
+    margin: 0px;
+    
+
+
+    background-image: url("../Assets/Netflix-Background.jpg");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+
+/* LOGO */
+.containerLogo{
+    border: 1px solid red;
+
+    display: block;
+    width: 130px;
+    height: 40px;
+}
+
+.Logo{
+    width: 130px;
+    height: 40px;
+}
+
+
+/* Login */
+.containerMaginLogin{
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerLogin{
+
+    display: flex;
+    justify-content: center;
+
+
+    width: 35%;
+    height: 500px;
+
+    padding: 20px;
+	background-color: #000;
+    opacity: 0.8;
+}
+.txtEntrar{
+    color: white;
+    font-size: 30px;
+}
+
+/* INPUT LOGIN */
+
+.ContainerCentral{
+    border: 1px solid red;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.inptEgmail{
+    width: 100%;
+    height: 25px;
+    background-color: #505050;
+}
